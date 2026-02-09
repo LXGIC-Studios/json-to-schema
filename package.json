@@ -1,0 +1,41 @@
+{
+  "name": "@lxgicstudios/json-to-schema",
+  "version": "1.0.0",
+  "description": "Generate JSON Schema (draft-07) from sample JSON data. Handles nested objects, arrays, type detection, and schema merging. CLI tool.",
+  "main": "dist/index.js",
+  "bin": {
+    "json-to-schema": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "json-schema",
+    "schema-generator",
+    "json",
+    "schema",
+    "draft-07",
+    "type-inference",
+    "validation",
+    "cli",
+    "typescript",
+    "data-types"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/json-to-schema"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
